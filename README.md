@@ -40,16 +40,6 @@ and two A* algorithms each use different heuristic functions.
 - NumPy (Library)
 - PySide6 (GUI Library)
 
-# 8-Puzzle Solver
-
-A Python-based 8-Puzzle Solver that allows users to solve the classic sliding puzzle using different search algorithms through an interactive graphical interface.
-
-## Overview
-
-The 8-Puzzle is a sliding puzzle consisting of a 3×3 board with eight numbered tiles and one empty space. The objective is to rearrange the tiles into their goal configuration by moving tiles into the empty space.
-
-This project implements several AI search algorithms to solve the puzzle and provides a graphical interface to visualize the solution step by step.
-
 ## Goal State
 
 ```text
@@ -58,27 +48,6 @@ This project implements several AI search algorithms to solve the puzzle and pro
 6 7 8
 ```
 The blank is represented by 0
-
-## Features
-
-- Interactive graphical user interface built with **PySide6**
-- Multiple search algorithms:
-  - Breadth-First Search (BFS)
-  - Depth-First Search (DFS)
-  - Iterative Deepening Search (IDS)
-  - A* Search with Manhattan Distance heuristic
-- Step-by-step solution visualization
-- Automatic solution playback
-- Search execution time measurement
-- Move counter and solution navigation
-- Initial state input and validation
-- Puzzle solvability detection
-
-## Technologies Used
-
-- Python
-- NumPy
-- PySide6
 
 ## Installation
 
